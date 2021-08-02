@@ -1,0 +1,32 @@
+void main() {
+ /*
+  //TIPOS INTEGRADOS 
+  
+  Set<String> nomes = {'Jessy', 'Ju'};
+  
+  print(nomes);
+  
+*/
+  
+  List<int> lista1 = [3, 2, 1];
+  List<int> lista2 = [10, 9, 8];
+  var lista3 = null;
+  
+  var listaTotal = [0,...lista1, ...lista2, ...?lista3];
+  
+  print(listaTotal);
+  
+
+  /*
+  Map<String, String> comentarios = Map<String, String>();
+  comentarios['Java'] = 'Comentário Java';
+  comentarios['Python'] = 'Comentário Python';
+      
+  comentarios.forEach((key, value) {
+        print('$key => $value');
+  });
+  
+  */
+  
+  
+}
